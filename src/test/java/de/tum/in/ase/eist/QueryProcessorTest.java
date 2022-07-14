@@ -33,7 +33,7 @@ class QueryProcessorTest {
 	@Test
 	void doesReturnName() {
 		String actual = queryProcessor.process("name");
-		assertEquals("GönnerGrandpa", actual);
+		assertEquals("Leon", actual);
 	}
 
 }
