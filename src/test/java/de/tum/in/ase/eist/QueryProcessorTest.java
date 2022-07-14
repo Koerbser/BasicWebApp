@@ -34,6 +34,7 @@ class QueryProcessorTest {
 	void doesReturnName() {
 		String actual = queryProcessor.process("name");
 		assertEquals("Leon", actual);
+
 	}
 
 }
